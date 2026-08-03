@@ -1,0 +1,85 @@
+name: Deploy SkillPoint Mobile App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: skillpoint-github-pages
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  build:
+    name: Build GitHub Pages and PWA
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Build Pages website and installable mobile app
+        env:
+          CI: "true"
+        run: npm run build:pages
+
+      - name: Verify production app files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site-pages/index.html
+          test -f site-pages/manifest.webmanifest
+          test -f site-pages/service-worker.js
+          test -f site-pages/pwa-build-info.json
+          test -f site-pages/icons/icon-192.png
+          test -f site-pages/icons/icon-512.png
+          test -f site-pages/icons/icon-512-maskable.png
+          test -f site-pages/.nojekyll
+          grep -q 'display.*standalone' site-pages/manifest.webmanifest
+          grep -q 'CACHE_ALL' site-pages/service-worker.js
+          echo "SkillPoint Pages/PWA build verified."
+          cat site-pages/pwa-build-info.json
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site-pages
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy SkillPoint
+        id: deployment
+        uses: actions/deploy-pages@v4
