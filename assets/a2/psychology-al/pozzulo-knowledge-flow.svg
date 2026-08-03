@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+<title id="title">Pozzulo et al.: Line-ups — knowledge flow</title><desc id="description">Step-by-step knowledge sequence for Pozzulo et al.: Line-ups</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1511"/><stop offset="1" stop-color="#09100d"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b8a1ff" stop-opacity=".18"/><stop offset="1" stop-color="#b8a1ff" stop-opacity="0"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".26"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L9 4L0 8Z" fill="#b8a1ff"/></marker>
+</defs>
+<rect width="1200" height="675" rx="32" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="673" rx="31" fill="none" stroke="#b8a1ff" stroke-opacity=".13"/>
+<path d="M0 0H760L570 170H0Z" fill="url(#glow)"/>
+<text x="52" y="43" fill="#b8a1ff" font-family="'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="2.6">KNOWLEDGE FLOW · 9990 · C3</text>
+<text x="52" y="80" text-anchor="start" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="52" dy="0">Pozzulo et al.: Line-ups — knowledge flow</tspan></text>
+<g filter="url(#shadow)"><rect x="45" y="138" width="354" height="470" rx="24" fill="#111d18" stroke="#b8a1ff" stroke-opacity=".22"/></g>
+      <circle cx="222" cy="169" r="18" fill="#b8a1ff" fill-opacity=".13" stroke="#b8a1ff" stroke-opacity=".55"/>
+      <text x="222" y="174" text-anchor="middle" fill="#b8a1ff" font-family="'Courier New',monospace" font-size="11" font-weight="700">1</text>
+      <text x="222" y="211" text-anchor="middle" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700"><tspan x="222" dy="0">Aim and background</tspan></text>
+      <text x="67" y="252" fill="#e8f4ee" font-family="Inter,Arial,sans-serif" font-size="15"><tspan x="67" dy="0">Examined children’s and adults’</tspan><tspan x="67" dy="20">eyewitness identification accuracy</tspan><tspan x="67" dy="20">in…</tspan></text><path d="M402 374H416" stroke="#b8a1ff" stroke-width="3" marker-end="url(#arrow)"/><g filter="url(#shadow)"><rect x="423" y="138" width="354" height="470" rx="24" fill="#111d18" stroke="#b8a1ff" stroke-opacity=".22"/></g>
+      <circle cx="600" cy="169" r="18" fill="#b8a1ff" fill-opacity=".13" stroke="#b8a1ff" stroke-opacity=".55"/>
+      <text x="600" y="174" text-anchor="middle" fill="#b8a1ff" font-family="'Courier New',monospace" font-size="11" font-weight="700">2</text>
+      <text x="600" y="211" text-anchor="middle" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700"><tspan x="600" dy="0">Method and findings</tspan></text>
+      <text x="445" y="252" fill="#e8f4ee" font-family="Inter,Arial,sans-serif" font-size="15"><tspan x="445" dy="0">Learn the sample, design,</tspan><tspan x="445" dy="20">variables, materials/procedure,</tspan><tspan x="445" dy="20">quantitative/qualitative…</tspan></text><text x="445" y="342" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="15"><tspan x="445" dy="0">The exam rewards exact</tspan><tspan x="445" dy="20">study-specific detail rather than</tspan><tspan x="445" dy="20">generic…</tspan></text><path d="M780 374H794" stroke="#b8a1ff" stroke-width="3" marker-end="url(#arrow)"/><g filter="url(#shadow)"><rect x="801" y="138" width="354" height="470" rx="24" fill="#111d18" stroke="#b8a1ff" stroke-opacity=".22"/></g>
+      <circle cx="978" cy="169" r="18" fill="#b8a1ff" fill-opacity=".13" stroke="#b8a1ff" stroke-opacity=".55"/>
+      <text x="978" y="174" text-anchor="middle" fill="#b8a1ff" font-family="'Courier New',monospace" font-size="11" font-weight="700">3</text>
+      <text x="978" y="211" text-anchor="middle" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700"><tspan x="978" dy="0">Evaluation and debates</tspan></text>
+      <text x="823" y="252" fill="#e8f4ee" font-family="Inter,Arial,sans-serif" font-size="15"><tspan x="823" dy="0">Evaluate control, validity,</tspan><tspan x="823" dy="20">reliability,</tspan><tspan x="823" dy="20">sample/generalisability…</tspan></text><text x="823" y="342" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="15"><tspan x="823" dy="0">connect to nature–nurture,</tspan><tspan x="823" dy="20">individual–situational,</tspan><tspan x="823" dy="20">reductionism–holism…</tspan></text></svg>

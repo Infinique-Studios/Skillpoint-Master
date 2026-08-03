@@ -1,0 +1,5 @@
+SKILLPOINT LOCAL VERSION
+
+Double-click index.html. No web server, npm, Node.js or internet connection is required for the site itself.
+
+Only Discord and external source-paper links require internet access.

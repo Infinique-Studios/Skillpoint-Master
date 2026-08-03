@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">Astronomy and an expanding Universe</title><desc id="d">Standard candles give distance, stellar spectra give temperature, and redshift links recession speed to distance.</desc><defs>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#00ff88"/></marker>
+<marker id="arrowC" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#55d8ff"/></marker>
+<marker id="arrowR" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#ff6b6b"/></marker>
+<style>
+  .bg{fill:#0d1512}.panel{fill:#111d18;stroke:#29483a;stroke-width:1.5}.grid{stroke:#20352d;stroke-width:1}
+  .axis{stroke:#8ba398;stroke-width:2}.main{stroke:#00ff88;stroke-width:4;fill:none}.cyan{stroke:#55d8ff;stroke-width:3;fill:none}
+  .amber{stroke:#ffc857;stroke-width:3;fill:none}.red{stroke:#ff6b6b;stroke-width:3;fill:none}.dash{stroke-dasharray:8 7}
+  .muted{fill:#8ba398;font:16px Inter,Arial,sans-serif}.label{fill:#f1f7f4;font:17px Inter,Arial,sans-serif}
+  .small{fill:#a7bbb2;font:14px Inter,Arial,sans-serif}.title{fill:#fff;font:bold 24px Inter,Arial,sans-serif}
+  .eq{fill:#00ff88;font:bold 19px 'Courier New',monospace}.dot{fill:#00ff88}.chargep{fill:#ff6b6b}.chargen{fill:#55d8ff}
+</style></defs><rect width="900" height="520" rx="28" class="bg"/>
+<text x="42" y="48" class="title">Astronomy and an expanding Universe</text>
+<rect x="35" y="72" width="250" height="400" rx="18" class="panel"/><text x="55" y="103" class="muted">Inverse-square flux</text><rect x="310" y="72" width="270" height="400" rx="18" class="panel"/><text x="330" y="103" class="muted">Stellar radius</text><rect x="605" y="72" width="260" height="400" rx="18" class="panel"/><text x="625" y="103" class="muted">Hubble plot</text>
+<circle cx="155" cy="270" r="25" fill="#ffc857"/><circle cx="155" cy="270" r="70" class="amber dash"/><circle cx="155" cy="270" r="120" class="amber dash"/><text x="62" y="430" class="eq">F = L/(4πd²)</text>
+<circle cx="445" cy="265" r="95" fill="#ffc85722" stroke="#ffc857" stroke-width="4"/><path d="M342 390 C375 350 410 140 550 390" class="main"/><line x1="455" y1="180" x2="455" y2="390" class="amber dash"/><text x="350" y="430" class="eq">λmax T = b</text><text x="340" y="460" class="eq">L = 4πσR²T⁴</text>
+<line x1="640" y1="410" x2="840" y2="410" class="axis"/><line x1="640" y1="410" x2="640" y2="125" class="axis"/><path d="M650 390 L825 160" class="main"/><g class="dot"><circle cx="675" cy="355" r="6"/><circle cx="710" cy="315" r="6"/><circle cx="750" cy="260" r="6"/><circle cx="795" cy="205" r="6"/></g><text x="675" y="445" class="eq">v = H₀d</text><text x="650" y="105" class="small">recession speed</text><text x="785" y="430" class="small">distance</text>
+</svg>

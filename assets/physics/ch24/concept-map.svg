@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">Magnetic fields and force</title><desc id="d">Right-hand grip gives field direction; Fleming's left hand gives force; parallel currents attract when in the same direction.</desc><defs>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#00ff88"/></marker>
+<marker id="arrowC" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#55d8ff"/></marker>
+<marker id="arrowR" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#ff6b6b"/></marker>
+<style>
+  .bg{fill:#0d1512}.panel{fill:#111d18;stroke:#29483a;stroke-width:1.5}.grid{stroke:#20352d;stroke-width:1}
+  .axis{stroke:#8ba398;stroke-width:2}.main{stroke:#00ff88;stroke-width:4;fill:none}.cyan{stroke:#55d8ff;stroke-width:3;fill:none}
+  .amber{stroke:#ffc857;stroke-width:3;fill:none}.red{stroke:#ff6b6b;stroke-width:3;fill:none}.dash{stroke-dasharray:8 7}
+  .muted{fill:#8ba398;font:16px Inter,Arial,sans-serif}.label{fill:#f1f7f4;font:17px Inter,Arial,sans-serif}
+  .small{fill:#a7bbb2;font:14px Inter,Arial,sans-serif}.title{fill:#fff;font:bold 24px Inter,Arial,sans-serif}
+  .eq{fill:#00ff88;font:bold 19px 'Courier New',monospace}.dot{fill:#00ff88}.chargep{fill:#ff6b6b}.chargen{fill:#55d8ff}
+</style></defs><rect width="900" height="520" rx="28" class="bg"/>
+<text x="42" y="48" class="title">Magnetic fields and force</text>
+<rect x="35" y="72" width="250" height="400" rx="18" class="panel"/><text x="55" y="103" class="muted">Straight wire</text><rect x="310" y="72" width="270" height="400" rx="18" class="panel"/><text x="330" y="103" class="muted">Force on a wire</text><rect x="605" y="72" width="260" height="400" rx="18" class="panel"/><text x="625" y="103" class="muted">Parallel currents</text>
+<circle cx="160" cy="270" r="16" fill="#00ff88"/><text x="150" y="277" class="label">•</text><circle cx="160" cy="270" r="55" class="cyan"/><circle cx="160" cy="270" r="95" class="cyan"/><circle cx="160" cy="270" r="130" class="cyan"/><text x="62" y="440" class="small">current out of page</text>
+<g stroke="#55d8ff" stroke-width="3"><line x1="340" y1="155" x2="550" y2="155"/><line x1="340" y1="205" x2="550" y2="205"/><line x1="340" y1="255" x2="550" y2="255"/><line x1="340" y1="305" x2="550" y2="305"/></g><line x1="445" y1="125" x2="445" y2="340" class="amber"/><line x1="445" y1="230" x2="525" y2="230" class="main" marker-end="url(#arrow)"/><text x="360" y="385" class="eq">F = BIL sinθ</text>
+<line x1="680" y1="145" x2="680" y2="390" class="amber" marker-end="url(#arrow)"/><line x1="790" y1="145" x2="790" y2="390" class="amber" marker-end="url(#arrow)"/><line x1="710" y1="270" x2="750" y2="270" class="main" marker-end="url(#arrow)"/><line x1="760" y1="290" x2="720" y2="290" class="main" marker-end="url(#arrow)"/><text x="654" y="430" class="small">same direction → attract</text>
+</svg>

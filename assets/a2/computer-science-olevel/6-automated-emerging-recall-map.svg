@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+<title id="title">Automated and Emerging Technologies — recall map</title><desc id="description">Definition, rule and outcome recall map for Automated and Emerging Technologies</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1511"/><stop offset="1" stop-color="#09100d"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4dd7ff" stop-opacity=".18"/><stop offset="1" stop-color="#4dd7ff" stop-opacity="0"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".26"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L9 4L0 8Z" fill="#4dd7ff"/></marker>
+</defs>
+<rect width="1200" height="675" rx="32" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="673" rx="31" fill="none" stroke="#4dd7ff" stroke-opacity=".13"/>
+<path d="M0 0H760L570 170H0Z" fill="url(#glow)"/>
+<text x="52" y="43" fill="#4dd7ff" font-family="'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="2.6">RECALL MAP · 2210 · 6</text>
+<text x="52" y="80" text-anchor="start" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="52" dy="0">Automated and Emerging Technologies — recall map</tspan></text>
+<g filter="url(#shadow)"><rect x="42" y="126" width="548" height="410" rx="25" fill="#111d18" stroke="#4dd7ff" stroke-opacity=".24"/><rect x="610" y="126" width="548" height="410" rx="25" fill="#111d18" stroke="#ffc857" stroke-opacity=".22"/></g>
+    <text x="70" y="168" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Exact language</text>
+    <text x="638" y="168" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Rules, formulae &amp; frameworks</text>
+    <circle cx="75" cy="200" r="5" fill="#4dd7ff" fill-opacity="1"/>
+        <text x="93" y="205" text-anchor="start" fill="#4dd7ff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="93" dy="0">Automation</tspan></text>
+        <text x="93" y="230" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="93" dy="0">Use of a system to perform tasks with limited direct</tspan><tspan x="93" dy="18">human…</tspan></text><circle cx="75" cy="289" r="5" fill="#4dd7ff" fill-opacity="0.88"/>
+        <text x="93" y="294" text-anchor="start" fill="#4dd7ff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="93" dy="0">Robot</tspan></text>
+        <text x="93" y="319" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="93" dy="0">Programmable machine capable of sensing and physical</tspan><tspan x="93" dy="18">action.</tspan></text><circle cx="75" cy="378" r="5" fill="#4dd7ff" fill-opacity="0.76"/>
+        <text x="93" y="383" text-anchor="start" fill="#4dd7ff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="93" dy="0">Artificial intelligence</tspan></text>
+        <text x="93" y="408" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="93" dy="0">Computer methods performing tasks associated with</tspan><tspan x="93" dy="18">intelligent…</tspan></text><circle cx="75" cy="467" r="5" fill="#4dd7ff" fill-opacity="0.64"/>
+        <text x="93" y="472" text-anchor="start" fill="#4dd7ff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="93" dy="0">Feedback</tspan></text>
+        <text x="93" y="497" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="93" dy="0">Use of measured output to alter subsequent control.</tspan></text>
+    <circle cx="655" cy="200" r="5" fill="#ffc857" fill-opacity="1"/>
+        <text x="673" y="205" text-anchor="start" fill="#ffc857" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="673" dy="0">input → process/model → output/action →…</tspan></text>
+        <text x="673" y="230" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="673" dy="0">Automated-system loop — Not every system closes the</tspan><tspan x="673" dy="18">loop</tspan></text><circle cx="655" cy="289" r="5" fill="#ffc857" fill-opacity="0.88"/>
+        <text x="673" y="294" text-anchor="start" fill="#ffc857" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700"><tspan x="673" dy="0">expected harm ≈ error probability ×…</tspan></text>
+        <text x="673" y="319" text-anchor="start" fill="#9bb0a6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400"><tspan x="673" dy="0">AI/automation risk frame — Also consider affected</tspan><tspan x="673" dy="18">groups</tspan></text>
+    <rect x="42" y="556" width="1116" height="80" rx="20" fill="#4dd7ff" fill-opacity=".07" stroke="#4dd7ff" stroke-opacity=".22"/>
+    <text x="68" y="584" fill="#4dd7ff" font-family="'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="1.7">RECALL ROUTE</text>
+    <text x="68" y="610" text-anchor="start" fill="#d9e8e0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400"><tspan x="68" dy="0">Explain automated-system input, process and output. • Describe robot characteristics and applications. • Explain AI…</tspan></text></svg>
