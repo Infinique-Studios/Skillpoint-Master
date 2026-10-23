@@ -1,0 +1,12 @@
+{
+  "name": "skillpoint-syllabus-first",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Syllabus-first Cambridge revision website",
+  "scripts": {
+    "build:pages": "node scripts/build-pages.mjs",
+    "build:local": "node scripts/build-local.mjs",
+    "build": "npm run build:pages && npm run build:local",
+    "audit": "node scripts/audit.mjs"
+  }
+}
